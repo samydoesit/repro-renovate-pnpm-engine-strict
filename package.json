@@ -1,0 +1,13 @@
+{
+  "name": "repro-renovate",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "validateRenovate": "pnpm --package=renovate dlx renovate-config-validator"
+  },
+  "engines": {
+    "node": "18.16.0",
+    "pnpm": "8.6.5"
+  },
+  "packageManager": "pnpm@8.6.5"
+}
